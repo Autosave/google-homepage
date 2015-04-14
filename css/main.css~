@@ -1,0 +1,145 @@
+nav {
+  position: relative;
+  float: right;
+  left: -30px;
+  top: 5px;
+  
+}
+
+nav a img {
+  position: relative;
+  top: 10px;
+  margin-right: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 14px;
+  margin: 5px;
+  color: #404040;
+}
+
+nav a:visited {
+  color: #404040;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+nav input {
+  background-color: #4285f4;
+  border: 1px solid #4285f4;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: bold;
+  padding: 7px 11px 7px 11px;
+}
+
+nav input:hover {
+  box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+}
+
+div {
+  position: relative;
+  margin: auto;
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  background-color: #f2f2f2;
+  position: absolute;
+  bottom: 0px;
+  border-top: 1px solid #e4e4e4;
+}
+
+footer a {
+  position: relative;
+  font-size: 13px;
+  font-family: arial;
+  margin-right: 30px;
+  top: 11px;
+  text-decoration: none;
+  color: #666; 
+}
+
+footer a:hover {
+  color: #666;
+  text-decoration: underline;
+}
+
+footer div:first-child {
+  float: left;
+  margin-left: 30px;
+}
+
+footer div:nth-child(2) {
+  float: right;
+}
+
+body > div {
+  position: relative;
+  text-align: center;
+  width: 600px;
+  height: 200px;
+  top: 190px;
+  margin: 0 auto;
+  
+}
+
+div > img {
+  height: 95px;
+  width: 269px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form input:first-child {
+  width: 555px;
+  height: 26px;
+  border: 1px solid #d9d9d9;
+  font-family: arial;
+  font-size: 16px;
+  
+}
+
+form input:first-child:focus {
+  border: 1px solid #4d90fe;
+  outline: none;
+}
+
+form input:first-child:hover {
+  border: 1px solid rgba(158, 157, 155, 0.99);
+}
+
+form input:nth-child(3), form input:nth-child(4) { 
+  margin-top: 13px;
+  margin-right: 6px;
+  margin-left: 6px;
+  background-color: #f5f5f5;
+  height: 29px;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 2px;
+  color: #444;
+  font-family: arial;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+form input:nth-child(3):hover, form input:nth-child(4):hover {
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+#speak {
+  position: absolute;
+  top: 123px;
+  right: 30px;
+  height: 19px;
+  width: 14px;
+  opacity: 0.60;
+}
